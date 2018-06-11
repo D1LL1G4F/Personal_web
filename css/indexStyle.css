@@ -1,0 +1,103 @@
+/*
+ * Author: Matej Kňazík
+ * Email: mato.knazik@gmail.com
+ * Date: February 2018
+ *
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+
+html {
+  image-rendering: pixelated;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#background {
+  position: fixed;
+  display: none;
+  background-image: url("../images/static.gif");
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  transition: 8s linear;
+}
+
+#content {
+  color: black;
+  top: 28.8%;
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: black;
+  overflow: hidden;
+}
+
+#content a {
+  cursor: not-allowed;
+  display: display;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  margin: 0px;
+}
+
+
+#content .name {
+  text-align: center;
+  display: inline-block;
+  font-size: 10vw;
+  font-weight: 700;
+  width: auto;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  letter-spacing: 1.3vw;
+  max-height: 50%;
+  max-width: 49%;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#content h2 {
+  padding-top: 15px;
+  background-color: black;
+  margin: 0px;
+  font-size: 3.1vh;
+  letter-spacing: 1vw;
+}
+
+#content h3 {
+  padding: 20px;
+  padding-bottom: 10px;
+  background-color: black;
+  margin-top: 0px;
+  font-size: 2vh;
+  letter-spacing: 1vw;
+}
+
+@media only screen and (max-width: 670px) {
+   #content h2 {
+       font-size: 1.7vh;
+   }
+   #content h3 {
+     font-size: 1.3vh;
+   }
+}
