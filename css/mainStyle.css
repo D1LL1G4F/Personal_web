@@ -179,6 +179,7 @@ strong {
   display: inline-block;
   height: 100%;
   width: 100%;
+  color: red;
 }
 
 #study p {
